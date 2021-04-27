@@ -23,6 +23,7 @@ namespace SharpBook
         // Izpis menija v nadaljevanju programa
         static void Moznosti(string option_1, string option_2)
         {
+            Console.Clear();
             Console.WriteLine("\r\nIzberite dejanje:");
             Console.WriteLine("1) " + option_1);
             Console.WriteLine("2) " + option_2);
@@ -45,6 +46,7 @@ namespace SharpBook
 
             while (selected_db == false) // Izvaja dokler ni izbrana podatkovna baza
             {
+                Console.Clear();
                 Console.WriteLine("\r\nIzberite dejanje:");
                 Console.WriteLine("1) Ustvari novo bazo");
                 Console.WriteLine("2) Izberi obstoječo bazo");
@@ -180,6 +182,7 @@ namespace SharpBook
                         }
                         else
                         {
+                            Console.Clear();
                             Console.WriteLine("V bazi ni nobenega kontakta - poskusite ustvariti nov kontakt");
                         }
                         break;
@@ -188,6 +191,7 @@ namespace SharpBook
                         close_app = true;
                         break;
                     default:
+                        Console.Clear();
                         Console.WriteLine("Ta funkcija ne obstaja");
                         break;
                 }
