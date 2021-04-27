@@ -47,5 +47,5 @@ Program je nastal kot šolski projekt pri predmetu UPN (Upravljanje programirlji
 Program ni 100% varen za uporabo (SQL Injection).
 
 
-
+Naložen je celoten projekt zaradi tega ker v nasprotnem primeru ne deluje pravilno ko ga uporabnik prenese.
 
