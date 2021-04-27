@@ -44,6 +44,8 @@ Program je nastal kot šolski projekt pri predmetu UPN (Upravljanje programirlji
 ![urejanje kontakta](https://user-images.githubusercontent.com/69119220/116281277-d7ee2a00-a789-11eb-88f0-fffb2f74d8a3.png)
 
 
+Program ni 100% varen za uporabo (SQL Injection).
+
 
 
 
