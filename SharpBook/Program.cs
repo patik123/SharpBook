@@ -15,6 +15,7 @@ using System.Windows.Forms;
  * 
  * Licenciran pod GNU General Public License v3.0
  */
+
 namespace SharpBook
 {
     class Program
